@@ -187,7 +187,7 @@ Volume can be changed from 0 to 100
 1. [MSP432P401R Launchpad](https://www.ti.com/tool/MSP-EXP432P401R)
 2. [MSP432P401R BoosterPack](https://www.ti.com/tool/BOOSTXL-EDUMKII)
 3. [ESP32](https://www.espressif.com/en/products/socs/esp32)
-4. [Google APIs](https://.com/documentation/web-api/)
+4. [Google APIs](https://cloud.google.com/)
 5. [Arduino_JSON](https://arduinojson.org/)
 6. [WiFi](https://www.arduino.cc/en/Reference/WiFi)
 7. [HTTPClient](https://www.arduino.cc/en/Reference/HTTPClient)
@@ -204,12 +204,12 @@ Volume can be changed from 0 to 100
 18. [Picture to C code converter](https://www.digole.com/tools/PicturetoC_Hex_converter.php)
 19. [Edge Impulse](https://studio.edgeimpulse.com/studio/176434)
 20. [Dataset](http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz](http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz))
-21. [Video](https://youtu.be/F27nQAyCleA)
+21. [Video](https://youtu.be/)
 
 ## Contact
 1. [Federico Iop](https://github.com/federico1110) [federico.iop@studenti.unitn.it]
 
-2. [Luca Pierno Pio](https://github.com/) [@studenti.unitn.it]
+2. [Luca Pierno Pio](https://github.com/cipolla02) [lucapio.pierno@studenti.unitn.it]
 
 3. [Filippo Maffei](https://github.com/Fip20) [filippo.maffei-2@studenti.unitn.it]
 
