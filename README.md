@@ -8,6 +8,29 @@ Internal communication between the various components of our device takes place 
 This integrated approach, combining hardware and software technologies, allows us to realise an advanced audio translation system that could find practical applications in multilingual contexts, facilitating understanding and communication.
 <hr>
 
+
+
+## Table of contents
+1. [Description](#description)
+2. [Table of contents](#table-of-contents)
+3. [Project Structure](#project-structure)
+4. [Requirements](#requirements)
+    1. [Hardware](#hardware)
+    2. [Software](#software)
+    3. [External libraries and APIs](#external-libraries-and-apis)
+5. [Installation](#installation)
+    1. [Hardware](#hardware-1)
+    2. [Software](#software-1)
+    3. [External libraries and APIS](#external-libraries-and-apis-1)
+        1. [MSP432](#msp432)
+        2. [ESP32](#esp32)
+        3. [Spotify APIS](#spotify-apis)
+6. [Usage](#usage)
+7. [Options](#options)
+8. [Info](#info)
+9. [Presentation and Demo](#presentation-and-demo)
+10. [Contact](#contact)
+
 ## Connessione ESP32
 Connettere un modulo ESP32 a un computer e a una MSP432 per consentire la connessione Wi-Fi e l'invio di richieste http tramite i seguenti passaggi:
 
