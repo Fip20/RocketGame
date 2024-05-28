@@ -86,7 +86,7 @@ In order to set up the UART communication we need to the following prelimary ste
     1. Open CCS and go to Projects > Properties
     2. Go to Build > Arm Compiler > Include Options as shown in the image
 
-         <img src="https://github.com/Fip20/RocketGames/blob/master/Presentation/img/include%20options%20.png">
+         <img src="https://github.com/Fip20/RocketGames/blob/master/Presentation/img/include%20options%20.png(https://github.com/Fip20/RocketGames/blob/master/Presentation/img/include%20options.png)">
          
         
     3. Go to Build > Arm Linker > File Search Path as shown in the image
