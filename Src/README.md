@@ -86,11 +86,11 @@ In order to set up the UART communication we need to the following prelimary ste
     1. Open CCS and go to Projects > Properties
     2. Go to Build > Arm Compiler > Include Options as shown in the image
 
-        <img src="https://github.com/Fip20/vocal-translator/blob/main/src/images/include%20options.png">
+         <img src="https://github.com/Fip20/RocketGames/edit/master/Presentation/img/include%20options%20.png">
         
     3. Go to Build > Arm Linker > File Search Path as shown in the image
 
-        <img src="https://github.com/Fip20/vocal-translator/blob/main/src/images/file%20search%20path.png">
+        <img src="https://github.com/Fip20/RocketGames/edit/master/Presentation/img/file%20search%20path.png">
         
 
 
