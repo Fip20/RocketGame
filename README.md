@@ -3,7 +3,7 @@ Project for Embedded Software for the IoT
 ## Description
 Our project focuses on creating an on board game that acquires joystick input and then convert the movement of the joystick in a movement in the screen's game. To achieve this, we use a control device called the MSP432P401R Launchpad, equipped with a BoosterPack that establishes communication with a PC via an ESP32 module using the UART protocol to update and view the scoreboard.
 To facilitate wireless connectivity, we implemented a 2.4 GHz connection, enabling efficient data transmission between our device and the PC. This choice is based on the need for reliable and fast wireless communication.
-The goal of the game is to dodge the red rectangle. The score depends on the time the game lasts. When you are in the menu, the blue LED is on. When you are playing, the green LED is on. When you lose, the red LED is on and the buzzer emits a sound.
+The goal of the game is to dodge the red rectangle. The score depends on the time the game lasts. When you are in the menu, the blue LED is on. When you are playing, the green LED is on. When you lose, the red LED is on and the buzzer emits a sound,the game send an http request to a server to show to the player the scoreboard.
 <hr>
 
 * [Video Demo](https://youtu.be)
