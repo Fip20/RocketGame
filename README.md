@@ -1,6 +1,6 @@
 # Vocal-translator
 Project for Embedded Software for the IoT
-# Ciccia
+# ciccia
 ## Description
 Our project focuses on creating an advanced system that acquires an audio file and then translates it into text. To achieve this, we use a control device called the MSP432P401R Launchpad, equipped with a BoosterPack that establishes communication with a PC via an ESP32 module using the UART protocol. Interestingly, the choice of this particular microcontroller was guided by its reliability and versatility in handling complex audio data streams.
 To facilitate wireless connectivity, we implemented a 2.4 GHz connection, enabling efficient data transmission between our device and the PC. This choice is based on the need for reliable and fast wireless communication.
