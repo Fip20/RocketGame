@@ -90,7 +90,7 @@ In order to set up the UART communication we need to the following prelimary ste
         
     3. Go to Build > Arm Linker > File Search Path as shown in the image
 
-        [<img src="https://github.com/Fip20/RocketGames/edit/master/Presentation/img/file%20search%20path.png">](https://github.com/Fip20/RocketGames/blob/master/Presentation/img/file%20search%20path.png)
+        [<img src="https://github.com/Fip20/RocketGames/blob/master/Presentation/img/file%20search%20path.png">]
         
 
 
