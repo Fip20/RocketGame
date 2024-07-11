@@ -4,10 +4,8 @@
 
 
 void gameOverSound(){
-
     uint32_t desiredFrequence = 300; //[Hz]
     uint32_t PWMperiod = SystemCoreClock / desiredFrequence; //Describe the type of frequency
-
 
     Timer_A_PWMConfig pwmConfig = {
     TIMER_A_CLOCKSOURCE_SMCLK, // system clock
@@ -20,9 +18,8 @@ void gameOverSound(){
 
     // Initialize Timer A
     Timer_A_generatePWM(TIMER_A0_BASE, &pwmConfig);
-
     __delay_cycles(20000000); //sound duration, 20000000 = 1.5 s
-
+    
     //stop sound
     Timer_A_stopTimer(TIMER_A0_BASE);
 
