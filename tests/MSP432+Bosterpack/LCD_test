@@ -1,0 +1,44 @@
+#include <ti/devices/msp432p4xx/inc/msp.h>
+#include <ti/devices/msp432p4xx/driverlib/driverlib.h>
+#include <ti/grlib/grlib.h>
+#include "LcdDriver/Crystalfontz128x128_ST7735.h"
+#include "LcdDriver/HAL_MSP_EXP432P401R_Crystalfontz128x128_ST7735.h"
+
+void main(void) {
+    /* Stop Watchdog Timer */
+    WDT_A_holdTimer();
+
+    /* Initialize Clock System */
+    CS_setDCOCenteredFrequency(CS_DCO_FREQUENCY_48);
+    CS_initClockSignal(CS_MCLK, CS_DCOCLK_SELECT, CS_CLOCK_DIVIDER_1);
+    CS_initClockSignal(CS_HSMCLK, CS_DCOCLK_SELECT, CS_CLOCK_DIVIDER_1);
+    CS_initClockSignal(CS_SMCLK, CS_DCOCLK_SELECT, CS_CLOCK_DIVIDER_1);
+    CS_initClockSignal(CS_ACLK, CS_REFOCLK_SELECT, CS_CLOCK_DIVIDER_1);
+
+    /* Initialize display */
+    Crystalfontz128x128_Init();
+
+    /* Set default screen orientation */
+    Crystalfontz128x128_SetOrientation(LCD_ORIENTATION_UP);
+
+    /* Initialize graphics context */
+    Graphics_Context g_sContext;
+    Graphics_initContext(&g_sContext, &g_sCrystalfontz128x128);
+    Graphics_setForegroundColor(&g_sContext, GRAPHICS_COLOR_WHITE);
+    Graphics_setBackgroundColor(&g_sContext, GRAPHICS_COLOR_BLACK);
+    GrContextFontSet(&g_sContext, &g_sFontFixed6x8);
+
+    /* Clear the screen */
+    Graphics_clearDisplay(&g_sContext);
+
+    /* Draw a test message */
+    Graphics_drawStringCentered(&g_sContext, (int8_t *)"LCD Test", AUTO_STRING_LENGTH, 64, 64, OPAQUE_TEXT);
+
+    /* Flush the changes to the display */
+    Graphics_flushBuffer(&g_sContext);
+
+    /* Enter an infinite loop */
+    while (1) {
+        PCM_gotoLPM0();
+    }
+}
