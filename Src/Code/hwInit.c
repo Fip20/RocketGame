@@ -27,7 +27,7 @@ void graphicsInit() {
     Graphics_setForegroundColor(&g_sContext, GRAPHICS_COLOR_WHITE); // Set the color of the text
     Graphics_setBackgroundColor(&g_sContext, GRAPHICS_COLOR_BLACK); // Set the background color
     GrContextFontSet(&g_sContext, &g_sFontFixed6x8); // Set the font
-    menuWelcome(); // Mostra il menu di benvenuto
+    menuWelcome(); // Show menu_welcome
 }
 
 
@@ -72,10 +72,8 @@ void buttonInit() {
 
 // ADC: Initializes the ADC for the joystick and microphone.
 void adcInit(){
-    // Configure pin 4.4 (Joystick Y) as ADC input
+    // Configure pin 4.4 (Joystick X) as ADC input
     GPIO_setAsPeripheralModuleFunctionInputPin(GPIO_PORT_P4, GPIO_PIN4, GPIO_TERTIARY_MODULE_FUNCTION);
-    // Configure the microphone pin as ADC input
-    GPIO_setAsPeripheralModuleFunctionInputPin(GPIO_PORT_P4, GPIO_PIN3, GPIO_TERTIARY_MODULE_FUNCTION);
     
     ADC14_enableModule(); // Enable the ADC14 module
     ADC14_initModule(ADC_CLOCKSOURCE_ACLK, ADC_PREDIVIDER_1, ADC_DIVIDER_1, 0); // Initialize the ADC14 module
