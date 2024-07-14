@@ -103,7 +103,7 @@ void PORT5_IRQHandler() {
     // Clears managed interrupts on port5 indicated by status indicating that it has been managed.
     GPIO_clearInterruptFlag(GPIO_PORT_P5, status);
     
-    if (status & GPIO_PIN1){
+    if (status & GPIO_PIN1){ // BUTTON s1 (port 5, pin 1) pressed
         token_button_pressed =  true;
     }
 }
@@ -140,7 +140,7 @@ void TA1_0_IRQHandler(void){
 
 
 /*
-called automatically when the UART receives data. The function reads the received data, 
+called automatically when the MSP receives UART data. The function reads the received data, 
 processes it to extract global scores, and updates the display with the scores.
 */
 void EUSCIA2_IRQHandler(void){
