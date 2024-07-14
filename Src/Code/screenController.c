@@ -91,7 +91,7 @@ void updateGrid(){
         }
     }
 
-    // Genera un nuovo cubetto rosso sulla riga corrente
+    // Genera un nuovo cubetto rosso posizione casuale sulla prima riga
     int newCubeColumn = rand() % GRID_WIDTH;
     for (col = 0; col < GRID_WIDTH; col++) {
         if (col == newCubeColumn) {
