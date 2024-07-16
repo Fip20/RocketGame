@@ -32,7 +32,6 @@ The goal of the game is to dodge the red rectangle. The score depends on the tim
 
 ## Project Structure
 ```
-├───.vscode
 ├───src
 │   ├───Code
 │       |───buzzerController.c  
@@ -46,7 +45,6 @@ The goal of the game is to dodge the red rectangle. The score depends on the tim
 |       ├───screenController.h
 |   ├───EPS32Code.ino
 │   ├───scores_server.py
-└───.gitignore
 ```
 
 ## Requirements
