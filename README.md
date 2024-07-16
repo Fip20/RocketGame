@@ -34,14 +34,18 @@ The goal of the game is to dodge the red rectangle. The score depends on the tim
 ```
 ├───.vscode
 ├───src
-│   ├───extra
-│       |───automator.py #open through CLI connection with edgeImpulse
-│       |───svm.py # SVM classifier
-│   ├───images
-│   ├───msp432
-│   │   ├───grlib
-│   │   └───driverlib
-│   └───esp32
+│   ├───Code
+│       |───buzzerController.c  
+│       |───buzzerController.h
+|       ├───hwInit.c
+|       ├───hwInit.h
+|       ├───ledController.c
+|       ├───ledController.h
+|       ├───main.c
+|       ├───screenController.c
+|       ├───screenController.h
+|   ├───EPS32Code.ino
+│   ├───scores_server.py
 └───.gitignore
 ```
 
