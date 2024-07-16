@@ -102,7 +102,7 @@ In order to set up the UART communication we need to the following prelimary ste
     1. ArduinoJson
     2. WiFi
     3. HTTPClient
-2. Modify the credentials for internet access in the `ESP32WiFi.ino` file
+2. Modify the credentials for internet access in the `EPS32Code.ino` file
 
 ##### Using the APIs
 The following table will show the APIs used in this project and the corresponding HTTP requests:
