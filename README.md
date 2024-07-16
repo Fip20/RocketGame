@@ -1,5 +1,6 @@
 # Rocket-game
 Project for Embedded Software for the IoT
+![Logo]([assets/logo.png](https://github.com/Fip20/RocketGame/blob/master/Presentation/img/RocketGame.png))
 ## Description
 Our project focuses on creating an on board game that acquires joystick input and then convert the movement of the joystick in a movement in the screen's game. To achieve this, we use a control device called the MSP432P401R Launchpad, equipped with a BoosterPack that establishes communication with a PC via an ESP32 module using the UART protocol to update and view the scoreboard.
 To facilitate wireless connectivity, we implemented a 2.4 GHz connection, enabling efficient data transmission between our device and the PC. This choice is based on the need for reliable and fast wireless communication.
