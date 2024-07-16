@@ -1,4 +1,4 @@
-# Rocket-games
+# Rocket-game
 Project for Embedded Software for the IoT
 ## Description
 Our project focuses on creating an on board game that acquires joystick input and then convert the movement of the joystick in a movement in the screen's game. To achieve this, we use a control device called the MSP432P401R Launchpad, equipped with a BoosterPack that establishes communication with a PC via an ESP32 module using the UART protocol to update and view the scoreboard.
