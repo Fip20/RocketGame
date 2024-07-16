@@ -2,9 +2,11 @@
 Project for Embedded Software for the IoT
 ![RocketGame](https://github.com/Fip20/RocketGame/blob/master/Presentation/img/RocketGame.png)
 ## Description
-Our project focuses on creating an on board game that acquires joystick input and then convert the movement of the joystick in a movement in the screen's game. To achieve this, we use a control device called the MSP432P401R Launchpad, equipped with a BoosterPack that establishes communication with a PC via an ESP32 module using the UART protocol to update and view the scoreboard.
-To facilitate wireless connectivity, we implemented a 2.4 GHz connection, enabling efficient data transmission between our device and the PC. This choice is based on the need for reliable and fast wireless communication.
-The goal of the game is to dodge the red rectangle. The score depends on the time the game lasts. When you are in the menu, the blue LED is on. When you are playing, the green LED is on. When you lose, the red LED is on and the buzzer emits a sound,the game send an http request to a server to show to the player the scoreboard.
+We made a game of a rocket that has to avoid obstacles. The goal of this project is to emulate the classic game that could be found on old phones or arcade machines on the Booster-Pack screen.
+The player, then, will have to move the rocket left or right with the joystick of the Booster-pack having to avoid the obstacles represented by the red squares and keep standing on the black squares collecting as many points as possible.
+To improve the user experience also we have added visual and audible feedback, in example a green LED while the game is in play and a red LED when you lose. Also once you lose the buffer sounds a Game Over sound.
+The project was done using the boosterpack, MSP432 and ESP32 interconnected with each other.
+The ESP32 is connected to the MSP432 and the Booster Pack. Through the ESP32, we retrieve the top global scores, which are saved on the server.
 <hr>
 
 * [Video Demo](https://youtu.be/r9LLOkuCrUQ)
