@@ -145,10 +145,7 @@ The following table will show the APIs used in this project and the correspondin
 14. [MSP432P401R Launchpad BoosterPack User's Guide](https://www.ti.com/lit/ug/slau356l/slau356l.pdf)
 15. [MSP432P401R Launchpad BoosterPack Hardware User's Guide](https://www.ti.com/lit/ug/slau356m/slau356m.pdf)
 16. [MSP432P401R Launchpad BoosterPack Software User's Guide](https://www.ti.com/lit/ug/slau356n/slau356n.pdf)
-17. [Picture to C code converter](https://www.digole.com/tools/PicturetoC_Hex_converter.php)
-18. [Edge Impulse](https://studio.edgeimpulse.com/studio/176434)
-19. [Dataset](http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz](http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz))
-20. [Video demo](https://youtu.be/r9LLOkuCrUQ)
+17. [Video demo](https://youtu.be/r9LLOkuCrUQ)
 
 ## Contact
 1. [Federico Iop](https://github.com/federico1110) [federico.iop@studenti.unitn.it]
