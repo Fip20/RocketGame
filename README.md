@@ -6,7 +6,7 @@ To facilitate wireless connectivity, we implemented a 2.4 GHz connection, enabli
 The goal of the game is to dodge the red rectangle. The score depends on the time the game lasts. When you are in the menu, the blue LED is on. When you are playing, the green LED is on. When you lose, the red LED is on and the buzzer emits a sound,the game send an http request to a server to show to the player the scoreboard.
 <hr>
 
-* [Video Demo](https://youtu.be)
+* [Video Demo]([https://youtu.be](https://youtu.be/r9LLOkuCrUQ))
 
 * [Presentation PDF](https://github.com/Fip20/vocal-translator/blob/main/presentation)
 * [Presentation PPT](https://github.com/Fip20/vocal-translator/blob/main/presentation)
