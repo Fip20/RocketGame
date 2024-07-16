@@ -108,7 +108,7 @@ In order to set up the UART communication we need to the following prelimary ste
 The following table will show the APIs used in this project and the corresponding HTTP requests:
 | API | HTTP Request | Description |
 | --- | --- | --- |
-|        e.g. 50|
+| https://federico1110.pythonanywhere.com/get_ranking | GET | get ranking scores from remote server |
 
 
 
