@@ -27,8 +27,7 @@ The goal of the game is to dodge the red rectangle. The score depends on the tim
         1. [MSP432](#msp432)
         2. [ESP32](#esp32)
 6. [Usage](#usage)
-7. [Presentation and Demo](#presentation-and-demo)
-8. [Contact](#contact)
+7. [Contact](#contact)
 
 ## Project Structure
 ```
@@ -126,7 +125,6 @@ The following table will show the APIs used in this project and the correspondin
 3. Konstantinos Zefkilis
 4. Filippo Maffei
 
-## Presentation and Demo
 
 ## References
 1. [MSP432P401R Launchpad](https://www.ti.com/tool/MSP-EXP432P401R)
