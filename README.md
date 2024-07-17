@@ -12,7 +12,7 @@ The ESP32 is connected to the MSP432 and the Booster Pack. Through the ESP32, we
 * [Video Demo](https://youtu.be/r9LLOkuCrUQ)
 
 * [Presentation PDF](https://github.com/Fip20/RocketGame/blob/master/Presentation/Rocket%20Game%20new.pdf)
-* [Presentation PPT](https://github.com/Fip20/vocal-translator/blob/main/presentation)
+* [Presentation PPT](https://github.com/Fip20/vocal-translator/blob/main/Presentation/Rocket%20Game%20new.odp)
 
 
 ## Table of contents
